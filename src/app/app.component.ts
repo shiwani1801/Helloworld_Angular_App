@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HelloWorld';
+  imgUrl="https://cdn.telanganatoday.com/wp-content/uploads/2021/09/Bridgelabzz.jpg";
+
+  ngOnInit():void{
+    this.title = "Hello From Bridgelabz."
+  }
 }
